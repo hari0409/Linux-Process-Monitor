@@ -11,5 +11,7 @@ def find_procs_by_name(name):
             ls.append(p)
     return ls
 
-name=input("Enter process name")
-print(find_procs_by_name(name=name))
+# name=input("Enter process name")
+# print(find_procs_by_name(name=name))
+
+print(psutil.cpu_percent(percpu=True,interval=1))
