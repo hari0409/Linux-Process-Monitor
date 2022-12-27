@@ -1,6 +1,8 @@
 # Process Monitor using Python:
  
 ## Basic Setup:
+* Create a venv using the command `python3 -m vevn env_name`
+* Install the dependencies using the command `pip install -r requirements.txt`
 * Create two folders `logs` & `complete` in the same directory where the file `monitor.py` exists.
 * In the `auto_email.py` replace with the required recipient
 

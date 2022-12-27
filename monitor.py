@@ -63,7 +63,7 @@ def get_process_data(pid,ram):
             # if the file does not exist, create it, otherwise append to it
             if not os.path.exists(path):
                 with open(path, "w") as f:
-                    f.write("Time, CPU Usage, Memory Usage\n")
+                    f.write(str(datetime.datetime.now()) + "," + str(cpu_usage) + "," + str(ram_usage) + "\n")
             with open(path, "a") as f:
                 f.write(str(datetime.datetime.now()) + "," + str(cpu_usage) + "," + str(ram_usage) + "\n")
             print("========================================")
