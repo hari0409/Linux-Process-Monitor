@@ -8,3 +8,4 @@
 * Run the script `run.py` or any other process to get a PID to monitor.
 * Run the `monitor.py` script which will take three input `PID`, `Memory Constraint in MB`, `CPU usage in %`
 * Exit with the help of `Ctrl+C`
+* To plot the data, run the `plot.ipynb` & give the PID in the function call for the function `plot(PID)`
